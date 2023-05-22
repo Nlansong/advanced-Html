@@ -29,11 +29,11 @@ p{
 }
 
 p:nth-child(even):hover{
-    transform: rotateY(360deg);
+    transform: rotateY(720deg);
     transition: 0.5s;
 }
 
 p:nth-child(odd):hover{
-    transform: rotateX(360deg);
+    transform: rotateX(720deg);
     transition: 1.5s;
 }

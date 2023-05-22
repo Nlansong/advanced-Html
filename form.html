@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="#">
+            <div>
+                <label for="email">Email Address: </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" required name="booking_date">
+            </div>
+            <div>
+                <label for="number_of_people">Number of People:</label>
+                <input type="number" id="number_of_people" name="number_of_people" min="1" max="8" required>
+            </div>
+            <div>
+                <label for="policy">I agree to the cancellation policy</label>
+                <input type="checkbox" id="policy" required name="policy">
+            </div>
+            <button type="submit">Book Now</button>
+        </form>
+        <section>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4"> 
+              </video>
+              <form>
+                <div>
+                  <label for="rating">Rating</label>
+                  <input type="range" id="rating" min="1" max="5" list='ratings'>
+                  <datalist id="ratings">
+                    <option value="1" label="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5" label="5"></option>
+                  </datalist>
+                </div>
+                <button type="submit">Submit</button>
+              </form>
+        </section>
+    </main>
+</body>
+</html>
